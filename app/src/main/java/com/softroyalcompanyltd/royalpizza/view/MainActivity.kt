@@ -1,5 +1,6 @@
 package com.softroyalcompanyltd.royalpizza.view
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.softroyalcompanyltd.royalpizza.objectInstanceMain
 import com.softroyalcompanyltd.royalpizza.screens.drawTopAppBar
 import com.softroyalcompanyltd.royalpizza.screens.showBottomNavigationBar
+import com.softroyalcompanyltd.royalpizza.service.MyServiceNetwork
 
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.Q)
@@ -33,5 +35,18 @@ class MainActivity : ComponentActivity() {
                 showBottomNavigationBar()
             }
         }
+    }
+    override fun onResume() {
+        super.onResume()
+        ////////////////Мониторинг подключения к сети
+        startService(
+            Intent(this, MyServiceNetwork::class.java)
+        )
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        ////////////////Вырубаем сервис
+        stopService(Intent(this, MyServiceNetwork::class.java))
     }
 }
