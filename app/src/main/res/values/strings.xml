@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Royal pizza</string>
+
+    <string name="pizza_name1">Сырная</string>
+    <string name="pizza_name2">Пепперони фреш</string>
+    <string name="pizza_name3">Двойной цыпленок</string>
+    <string name="pizza_name4">Чоризо фреш</string>
+    <string name="pizza_name5">Ветчина и сыр</string>
+
+    <string name="pizza_compound1">Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</string>
+    <string name="pizza_compound2">Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус</string>
+    <string name="pizza_compound3">Цыпленок, моцарелла, фирменный соус альфредо</string>
+    <string name="pizza_compound4">Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец</string>
+    <string name="pizza_compound5">Ветчина, моцарелла, фирменный соус альфредо</string>
+
+    <string name="pizza_cost1">от 299 р.</string>
+    <string name="pizza_cost2">от 299 р.</string>
+    <string name="pizza_cost3">от 489 р.</string>
+    <string name="pizza_cost4">от 539 р.</string>
+    <string name="pizza_cost5">от 315 р.</string>
+
+    <string name="sectionsName1">Пиццы</string>
+    <string name="sectionsName2">Комбо</string>
+    <string name="sectionsName3">Десерты</string>
+    <string name="sectionsName4">Напитки</string>
+
+
+
+
+
+
+
+
+</resources>
