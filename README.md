@@ -1,7 +1,8 @@
 <div>
-  <img src="https://i.ibb.co/9Z9t0Qq/6fab00e4-96cd-4e91-a69f-2f8cb8b8d714.jpg" width="400" height="720"/>&nbsp;
-  <img src="https://i.ibb.co/hBpyrq3/185dce1b-7c32-4613-92cb-3a8c7b495898.jpg"width="400" height="720"/>&nbsp;
+  <img src="https://github.com/user-attachments/assets/aa564c05-6d50-42c8-8873-5819e1b94f9b" width="400" height="720"/>&nbsp;
+  <img src="https://github.com/user-attachments/assets/018b75a7-c093-4105-a58c-ee0c38b81939"width="400" height="720"/>&nbsp;
 </div>
+
 
 
 ## :triangular_flag_on_post:About
